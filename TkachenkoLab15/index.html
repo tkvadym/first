@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна робота</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Лабораторна робота</h1>
+
+      <section id="task1">
+        <h2>Завдання 1: Числа від -100 до 100</h2>
+        <div id="result1"></div>
+      </section>
+
+      <section id="task2">
+        <h2>Завдання 2: Парні числа від 0 до 100</h2>
+        <div id="result2"></div>
+      </section>
+
+      <section id="task3">
+        <h2>Завдання 3: Ділення на 3</h2>
+        <div id="result3"></div>
+      </section>
+
+      <section id="task4">
+        <h2>Завдання 4: Конвертер см у дюйми</h2>
+        <input
+          type="number"
+          id="centimeters"
+          placeholder="Введіть значення в см"
+        />
+        <button onclick="convertToInches()">Конвертувати</button>
+      </section>
+
+      <section id="task5">
+        <h2>Завдання 5: День тижня</h2>
+        <button onclick="getDayOfWeek()">Ввести число</button>
+        <div id="result5"></div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

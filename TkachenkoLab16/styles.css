@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  margin: 20px 0;
+  color: #333;
+}
+
+.task1 img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.task2 a {
+  display: block;
+  margin: 10px 0;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.task2 a:hover {
+  text-decoration: underline;
+}
+
+.task3 input,
+.task4 input {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 200px;
+}
+
+#demo {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.task5 p {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.task5 p:hover {
+  background-color: #e0e0e0;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: green;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  cursor: pointer;
+}
